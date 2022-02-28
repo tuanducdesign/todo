@@ -60,10 +60,7 @@ body {
     font-weight: bold;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-/* completed todo item */
-.todo-item.completed {
-    color: #fff;
-    background-color: #28a745;
-    border-color: #28a745;
-    text-decoration: line-through;
+.todo-item.btn-success .todo-item-content-remove button {
+    background-color: transparent !important;
+    border-color: #fff !important;
 }
